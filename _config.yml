@@ -16,7 +16,7 @@ website: chaechae00.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username:  byungchul-chae
@@ -25,7 +25,7 @@ linkedin_username: jekyll
 # Additional icon links
 additional_links:
 - title: website
-  icon: fa-light fa-globe
+  icon: fa fa-globe
   url: chaechae00.github.io
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
