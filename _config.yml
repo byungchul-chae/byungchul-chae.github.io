@@ -8,15 +8,15 @@ version: 2
 # Personal info
 name: Byungchul Chae
 title: Your job title
-email: Your email (optional)
+email: chaechae7@khu.ac.kr
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +82) 10-5618-4561
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: chaechae00.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: jekyllrb
