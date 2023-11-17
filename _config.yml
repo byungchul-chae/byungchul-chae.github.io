@@ -25,7 +25,7 @@ linkedin_username: jekyll
 # Additional icon links
 additional_links:
 - title: website
-  icon: fa-globe
+  icon: fa-light fa-globe
   url: chaechae00.github.io
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
