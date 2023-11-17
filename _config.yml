@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Byungchul Chae
-title: Your job title
+title: COSLAB in Kyung Hee Univ.
 email: chaechae7@khu.ac.kr
 # email_title: Email (Email title override)
 phone: +82) 10-5618-4561
@@ -39,7 +39,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/IMG_5514.JPG
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
