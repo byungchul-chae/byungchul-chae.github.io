@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "BYUNGCHUL CHAE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Byungchul Chae..."
+name                     : "Byungchul Chae"
 description              : "대학원생 공부 기록"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
