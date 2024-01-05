@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "defalt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Byungchul Chae(Site Title)"
+title                    : "Byungchul Chae"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Byungchul Chae(Your Name)"
+name                     : "Byungchul Chae"
 description              : "An amazing website.-test"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Byungchul Chae"
   avatar           : "/assets/images/chae.png"
-  bio              : "I am an **amazing** person.-test"
-  location         : "Somewhere"
+  bio              : "Dev blog"
+  location         : "Seoul"
   email            :
   links:
     - label: "Email"
