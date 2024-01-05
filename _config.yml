@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/chae.png"
   bio              : "Dev blog"
   location         : "Seoul"
-  email            :
+  email            : abchae@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
