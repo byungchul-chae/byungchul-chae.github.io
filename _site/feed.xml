@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-05T16:03:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BYUNGCHUL CHAE</title><subtitle>대학원생 공부 기록</subtitle><author><name>Byungchul Chae</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-05T17:08:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BYUNGCHUL CHAE</title><subtitle>대학원생 공부 기록</subtitle><author><name>Byungchul Chae</name></author><entry><title type="html">[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization</title><link href="http://localhost:4000/paper/compression/Matrix-Compression-NeurIPS-2023/" rel="alternate" type="text/html" title="[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization" /><published>2024-01-01T00:00:00+09:00</published><updated>2024-01-01T00:00:00+09:00</updated><id>http://localhost:4000/paper/compression/Matrix-Compression-NeurIPS-2023</id><content type="html" xml:base="http://localhost:4000/paper/compression/Matrix-Compression-NeurIPS-2023/"><![CDATA[<h2 id="info">Info</h2>
+<p>2023 NeurIPS에서 발표된 논문.
+Low Rank Low Precision 알고리즘을 통해 모델, 데이터셋을 효과적으로 압축</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<h2 id="proposed-algorithm">Proposed Algorithm</h2>
+
+<h3 id="uniformly-dithered-quantizer">Uniformly Dithered Quantizer</h3>
+<p>이 논문의 알고리즘에 사용되는 양자화 방식이다.
+자세한 설명</p>
+
+<h3 id="propoed-algorithm--lplr">Propoed Algorithm : LPLR</h3>
+<ol>
+  <li>Direct SVD Qaunt</li>
+  <li>최적화 문제의 제시</li>
+  <li>LPLR 알고리즘</li>
+  <li>알고리즘의 이점</li>
+  <li>가우시안 행렬의 선택</li>
+</ol>
+
+<h2 id="approximation-error-analysis">Approximation Error Analysis</h2>
+
+<h2 id="numerical-simulations">Numerical Simulations</h2>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<h2 id="summary">Summary</h2>]]></content><author><name>Byungchul Chae</name></author><category term="Paper" /><category term="Compression" /><category term="low rank" /><category term="compression" /><category term="neurips" /><category term="paper review" /><summary type="html"><![CDATA[[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization]]></summary></entry></feed>

@@ -9,30 +9,36 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>BYUNGCHUL CHAE</title>
-<meta name="description" content="대학원생 공부 기록">
+<!-- begin _includes/seo.html --><title>[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization - BYUNGCHUL CHAE</title>
+<meta name="description" content="[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization">
 
 
   <meta name="author" content="Byungchul Chae">
   
+  <meta property="article:author" content="Byungchul Chae">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="BYUNGCHUL CHAE">
-<meta property="og:title" content="BYUNGCHUL CHAE">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization">
+<meta property="og:url" content="http://localhost:4000/paper/compression/Matrix-Compression-NeurIPS-2023/">
 
 
-  <meta property="og:description" content="대학원생 공부 기록">
-
-
-
+  <meta property="og:description" content="[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization">
 
 
 
 
 
+
+
+  <meta property="article:published_time" content="2024-01-01T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2024-01-01T00:00:00+09:00">
 
 
 
@@ -41,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/paper/compression/Matrix-Compression-NeurIPS-2023/">
 
 
 
@@ -98,7 +104,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -139,6 +145,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -267,33 +275,20 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization">
+    <meta itemprop="description" content="[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization">
+    <meta itemprop="datePublished" content="2024-01-01T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2024-01-01T00:00:00+09:00">
 
-<h3 class="archive__subtitle">Recent posts</h3>
-
-
-
-
-<div class="entries-list">
-  
-    
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <div class="page__inner-wrap">
       
-        <a href="/paper/compression/Matrix-Compression-NeurIPS-2023/" rel="permalink">[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/paper/compression/Matrix-Compression-NeurIPS-2023/" class="u-url" itemprop="url">[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
   <p class="page__meta">
     
@@ -314,19 +309,132 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">[Paper Review] Matrix Compression via Randomized Low Rank and Low Precision Factorization
-</p>
-  </article>
-</div>
+        </header>
+      
 
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#info">Info</a></li><li><a href="#introduction">Introduction</a></li><li><a href="#proposed-algorithm">Proposed Algorithm</a><ul><li><a href="#uniformly-dithered-quantizer">Uniformly Dithered Quantizer</a></li><li><a href="#propoed-algorithm--lplr">Propoed Algorithm : LPLR</a></li></ul></li><li><a href="#approximation-error-analysis">Approximation Error Analysis</a></li><li><a href="#numerical-simulations">Numerical Simulations</a></li><li><a href="#conclusions">Conclusions</a></li><li><a href="#summary">Summary</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="info">Info</h2>
+<p>2023 NeurIPS에서 발표된 논문.
+Low Rank Low Precision 알고리즘을 통해 모델, 데이터셋을 효과적으로 압축</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<h2 id="proposed-algorithm">Proposed Algorithm</h2>
+
+<h3 id="uniformly-dithered-quantizer">Uniformly Dithered Quantizer</h3>
+<p>이 논문의 알고리즘에 사용되는 양자화 방식이다.
+자세한 설명</p>
+
+<h3 id="propoed-algorithm--lplr">Propoed Algorithm : LPLR</h3>
+<ol>
+  <li>Direct SVD Qaunt</li>
+  <li>최적화 문제의 제시</li>
+  <li>LPLR 알고리즘</li>
+  <li>알고리즘의 이점</li>
+  <li>가우시안 행렬의 선택</li>
+</ol>
+
+<h2 id="approximation-error-analysis">Approximation Error Analysis</h2>
+
+<h2 id="numerical-simulations">Numerical Simulations</h2>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<h2 id="summary">Summary</h2>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#compression" class="page__taxonomy-item p-category" rel="tag">compression</a><span class="sep">, </span>
+    
+      <a href="/tags/#low-rank" class="page__taxonomy-item p-category" rel="tag">low rank</a><span class="sep">, </span>
+    
+      <a href="/tags/#neurips" class="page__taxonomy-item p-category" rel="tag">neurips</a><span class="sep">, </span>
+    
+      <a href="/tags/#paper-review" class="page__taxonomy-item p-category" rel="tag">paper review</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#compression" class="page__taxonomy-item p-category" rel="tag">Compression</a><span class="sep">, </span>
+    
+      <a href="/categories/#paper" class="page__taxonomy-item p-category" rel="tag">Paper</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-01-01">January 1, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%5BPaper+Review%5D+Matrix+Compression+via+Randomized+Low+Rank+and+Low+Precision+Factorization%20http%3A%2F%2Flocalhost%3A4000%2Fpaper%2Fcompression%2FMatrix-Compression-NeurIPS-2023%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fpaper%2Fcompression%2FMatrix-Compression-NeurIPS-2023%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fpaper%2Fcompression%2FMatrix-Compression-NeurIPS-2023%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+            
+      </div>
+    </div>
   
 </div>
 
-
-
-
-  </div>
-</div>
     </div>
 
     
