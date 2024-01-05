@@ -14,6 +14,8 @@ last_modified_at: 2024-01-01
 2023 NeurIPS에서 발표된 논문.
 Low Rank Low Precision 알고리즘을 통해 모델, 데이터셋을 효과적으로 압축
 
+<script src="https://gist.github.com/byungchul-chae/6c56d0e3d21828329977967a958b4c6b.js"></script>
+
 ## Introduction
 
 
